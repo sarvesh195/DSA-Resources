@@ -13,7 +13,7 @@ class Solution {
     
     public int getVal(int[][] arr, int x, int y){
         if(x<0 || x>=arr.length || y<0 || y>=arr[0].length) return -1;
-        else return arr[x][y];
+        return arr[x][y];
     }
     
     public void fill(int[][] img, int x, int y, int color){
